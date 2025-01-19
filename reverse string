@@ -1,0 +1,5 @@
+ip_string = input("Enter a string :")
+op_string=  " "
+for letter in ip_string:
+    op_string = letter + op_string
+print (f"Reverse of String is:{op_string} ")
